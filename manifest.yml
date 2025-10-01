@@ -1,0 +1,10 @@
+repos:
+  - url: git@github.com-company:anhptk-commits/test1.git
+    dest: test1
+  - url: git@github.com-company:anhptk-commits/test2.git
+    dest: test2
+groups:
+  default:
+    repos:
+      - test1
+      - test2
